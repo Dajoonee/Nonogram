@@ -1,4 +1,4 @@
-package nonogramPuzzle.code1;
+package nonogramPuzzle.make_puzzle;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
