@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nonogramPuzzle.code1.NonogramController">
+<AnchorPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nonogramPuzzle.make_puzzle.NonogramController">
    <children>
       <Pane fx:id="backPane" layoutX="181.0" layoutY="150.0" prefHeight="300.0" prefWidth="300.0" />
       <Button fx:id="saveBtn" layoutX="246.0" layoutY="483.0" mnemonicParsing="false" text="저장">
