@@ -52,15 +52,32 @@ public class Controller implements Initializable{
 	//col
 		for(int i=0; i<10; i++) {
 			colCount[i] = new GridPane();
-			colCount[i].setPrefHeight(100);
-			colCount[i].setPadding(new Insets(0,0,0,10));
+	
+			colCount[i].setPrefSize(30, 100);
+			colCount[i].setPadding(new Insets(0,0,0,5));
 			for(int j=0; j<4; j++) {
-				colCount[i].add(new Label(i+""+j), i, j);
+				Label label = new Label(i+"0");
+				label.setPadding(new Insets(0,0,10,0));
+				colCount[i].add(label, i, j);
+			}
+//			colCount[i].set
+		}
+		
+		//row
+		for(int i=0; i<10; i++) {
+			rowCount[i] = new GridPane();
+			rowCount[i].setPrefSize(120, 30);
+			rowCount[i].setPadding(new Insets(5,0,0,0));
+			for(int j=0; j<4; j++) {
+				Label label = new Label(i+"0");
+				label.setPadding(new Insets(0,0,0,10));
+				rowCount[i].add(label, j, i);
 			}
 //			colCount[i].set
 		}
 		
 		colNum.getChildren().addAll(colCount);
+		rowNum.getChildren().addAll(rowCount);
 	}
 	
 	private void fillNemo(Button nemo) {

@@ -26,7 +26,7 @@
             <Insets left="10.0" />
          </padding>
       </GridPane>
-      <HBox fx:id="colNum" layoutX="200.0" layoutY="58.0" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #ededed;" />
-      <VBox fx:id="rowNum" layoutX="80.0" layoutY="158.0" prefHeight="300.0" prefWidth="120.0" style="-fx-background-color: #dedede;" />
+      <HBox fx:id="colNum" layoutX="200.0" layoutY="52.0" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #ededed;" />
+      <VBox fx:id="rowNum" layoutX="74.0" layoutY="158.0" prefHeight="300.0" prefWidth="120.0" style="-fx-background-color: #dedede;" />
    </children>
 </AnchorPane>
