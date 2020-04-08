@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
@@ -28,5 +29,10 @@
       </GridPane>
       <HBox fx:id="colNum" layoutX="200.0" layoutY="52.0" prefHeight="100.0" prefWidth="300.0" style="-fx-background-color: #ededed;" />
       <VBox fx:id="rowNum" layoutX="74.0" layoutY="158.0" prefHeight="300.0" prefWidth="120.0" style="-fx-background-color: #dedede;" />
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="270.0" layoutY="504.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/wrong.jpg" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
